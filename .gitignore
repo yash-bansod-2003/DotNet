@@ -1,0 +1,59 @@
+# Build results
+bin/
+obj/
+.vs/
+.vscode/
+*.dll
+*.exe
+*.pdb
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# Visual Studio cache/options
+.vs/
+.vscode/settings.json
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Local environment files (but keep the template)
+appsettings.*.json
+!appsettings.Development.json
+!appsettings.json
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build logs
+*.log
+
+# Test Results
+TestResults/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ReSharper
+.resharper
+.resharper.user
+*.resharper.user
+
+# Coverage
+coverage/
+.coverage
+
+# Temporary files
+*.tmp
+tmp/
+temp/
