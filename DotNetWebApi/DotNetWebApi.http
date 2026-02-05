@@ -3,4 +3,36 @@
 GET {{DotNetWebApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
+### Books API
+GET {{DotNetWebApi_HostAddress}}/api/books
+Accept: application/json
+
 ###
+POST {{DotNetWebApi_HostAddress}}/api/books
+Content-Type: application/json
+
+{
+    "id": 4,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "publishedDate": "1925-04-10T00:00:00"
+}
+
+###
+GET  {{DotNetWebApi_HostAddress}}/api/books/4
+Accept: application/json
+
+###
+PUT {{DotNetWebApi_HostAddress}}/api/books/4
+Content-Type: application/json
+
+{
+    "id": 4,
+    "title": "The Great Gatsby (Updated)",
+    "author": "F. Scott Fitzgerald",
+    "publishedDate": "1925-04-10T00:00:00"
+}
+
+###
+DELETE {{DotNetWebApi_HostAddress}}/api/books/4
+Content-Type: application/json
